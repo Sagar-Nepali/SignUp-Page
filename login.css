@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    background-image: url(image/img5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 30%;
+    height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* */
+/*boringLife X cyberZ*/
+/* heading start*/
+.heading{
+    display: inline-flex;
+    border: none;
+    color: white;
+}
+.heading:hover{
+    color: antiquewhite;
+    transition: 2s;
+}
+/* heading end*/
+
+/* navigation start*/
+nav{
+    text-align: center;
+}
+.navigation{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 21px;
+    text-align: center;
+}
+.navigation:hover{
+    color: orange;
+    transition: 0.25s;
+}
+.navigation:active{
+    color: antiquewhite;
+    transition: 0.25s;
+}
+/* navigation end*/
+
+
+.logInForm, .detailOfUser{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.box{
+    text-align: center;
+    margin-top: 26px;
+    
+}
+
+/* Sign In*/
+p{
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    cursor: pointer;
+}
+p:hover{
+    color: antiquewhite;
+    transition: 3s;
+}
+.detailOfUser{
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+input, select{
+    margin-top: 4px;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 19px;
+}
+input, select :hover{
+    cursor: pointer;
+}
+.inputHover:hover{
+    box-shadow: 1px 1px 21px black;
+    transition: 0.25s;
+}
+.inputHover:active{
+    padding-left: 12px;
+    transition: 0.25s;
+}
+
+
+label{
+    font-weight: bold;
+    font-size: 21px;
+    text-align: left;
+    margin-bottom: 0;
+    color: white;
+}
+::placeholder{
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+
+/* button start*/
+button{
+    border: none;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 21px;
+    padding: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    padding-right: 19px;
+    padding-left: 19px;
+    transition: 1s;
+}
+button:active{
+    box-shadow: 1px 1px 12px white;
+    padding: 4px;
+    padding-right: 29px;
+    padding-left: 29px;
+    transition: 0.25s;
+}
+/* button end*/
+
